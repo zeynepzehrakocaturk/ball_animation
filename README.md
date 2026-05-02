@@ -20,7 +20,7 @@ Ball Animation Game, basit bir top animasyonu ve etkileşimi sunan küçük bir 
 - [Kontroller ve Kullanım](#kontroller-ve-kullanım)
 - [Proje Yapısı](#proje-yapısı)
 - [Geliştirme & Katkı](#geliştirme--katkı)
-- [Teknoloji ve CI Önerisi](#teknoloji-ve-ci-önerisi)
+- [Teknoloji ve CI](#teknoloji-ve-ci-önerisi)
 - [Lisans](#lisans)
 
 ## Kurulum
