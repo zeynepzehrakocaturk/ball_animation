@@ -78,35 +78,12 @@ PR ve issue açarken lütfen aşağıdakileri paylaşın:
 - Yeniden üretme adımları
 - Beklenen ve gerçekleşen davranış
 
-## Teknoloji ve CI Önerisi
+## Teknoloji ve CI 
 
 - Dil: `Python 3.8+`
 - Kod formatlama: `black`  
 - Linting: `flake8` veya `ruff`  
-- Önerilen GitHub Actions iş akışı (örnek): lint, format kontrol, test.
 
-Badge örnekleri (README'ye eklenebilir):
-
-- Build: `https://github.com/<kullanici>/<repo>/actions` (GitHub Actions)
-- License: MIT
-
-Basit bir GitHub Actions iş akışı örneği (`.github/workflows/ci.yml`):
-
-```yaml
-name: CI
-on: [push, pull_request]
-jobs:
-  lint:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v4
-        with:
-          python-version: '3.10'
-      - run: pip install black flake8
-      - run: black --check .
-      - run: flake8 .
-```
 
 ## Lisans
 
